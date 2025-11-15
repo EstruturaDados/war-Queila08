@@ -58,8 +58,7 @@ int main() {
         printf("Quantidade de tropas: ");
         scanf("%d", &territorios[i].tropas);
     }
-
-//**Exibição dos dados**
+//**Exibição dos dados cadastrados**
 printf("Dados dos territorios cadastrados:\n");
 for (int i = 0; i < 5; i++) {
     printf("Territorio %d:\n", i + 1);
@@ -68,6 +67,7 @@ for (int i = 0; i < 5; i++) {
     printf("Quantidade de tropas:%d\n", territorios[i].tropas);
     printf("\n");
 }
+
     // 1. Configuração Inicial (Setup):
     // - Define o locale para português.
     // - Inicializa a semente para geração de números aleatórios com base no tempo atual.
